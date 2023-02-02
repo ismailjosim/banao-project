@@ -1,10 +1,10 @@
+import { RouterProvider } from 'react-router-dom';
 import './App.css';
+import routes from './routes/routes';
 
 function App() {
   return (
-    <div className="App">
-      <h3>Hello</h3>
-    </div>
+    <RouterProvider router={ routes } />
   );
 }
 
